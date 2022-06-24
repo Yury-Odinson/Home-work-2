@@ -1,0 +1,26 @@
+/* файл анимации подсветки */
+
+/* Задаём тень при наведении курсора на элементы навигации */
+.header-navigation-list__item:hover {
+    text-shadow: 5px 5px 15px rgb(0, 217, 255), 0 0 2em rgb(15, 219, 255), 0 0 0.2em rgb(0, 0, 255);
+    transition: text-shadow 0.2;
+}
+
+/* Задаём плавность анимации */
+
+.header-navigation-list__item {
+    transition: 0.2s linear;
+}
+
+/* Задаём тень при наведении курсора на элементы в первой секции */
+
+.section-1-content-list__item:hover  {
+    text-shadow: 2px 2px 5px rgb(0, 217, 255), 0 0 2em rgb(15, 219, 255), 0 0 0.2em rgb(0, 0, 255);
+    transition: text-shadow 0.2;
+}
+
+/* Задаём плавность анимации */
+
+.section-1-content-list__item {
+    transition: 0.2s linear;
+}

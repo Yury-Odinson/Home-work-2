@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'LcdD';
+    src: local('LcdD'),
+        url(/FE-02/assets/fonts/LcdD\ \(Somewhere\ In\ Time\ Font\).ttf);
+}
+
+@font-face {
+    font-family: 'Klaxons';
+    src: local('Klaxons'),
+        url(/FE-02/assets/fonts/Klaxons.otf);
+}

@@ -1,0 +1,135 @@
+.header {
+    display: flex;
+    background: linear-gradient(0deg, rgba(0,0,20,0) 0%, rgba(0,0,20,0) 0%, rgba(204, 0, 255, 0.5) 100%);
+    font-family: 'Klaxons', 'Roboto', sans-serif;
+    font-size: 5rem;
+}
+
+.header__logo {
+    margin-left: auto;
+}
+
+.header-navigation, .footer-navigation {
+    margin: auto;
+    margin-left: 10px;
+    list-style-type: none; /* отключение маркеров */
+}
+
+.header-navigation-list {
+    margin: 30px ;
+}
+
+.header-navigation-list__item {
+    margin: auto;
+    padding: 0 15px;
+    display: inline;
+    text-align: center;
+}
+
+.header-navigation-list__item__link{
+    color: rgb(223, 223, 255);
+    text-decoration: none;
+}
+
+
+
+
+
+
+.section-1, .section-2, .section-3 {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.section-1 {
+    margin: 50px auto;
+    max-width: 1100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.6) 0%, rgba(135,16,100,0.6) 35%, rgba(118,8,176,0.4) 68%, rgba(91,0,101,0.5) 100%);
+    color: rgb(223, 223, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    box-shadow: 3px 3px 20px rgb(47, 22, 80);
+}
+
+.section-2 {
+    margin: 3% auto;
+    max-width: 1100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    border: 7px double rgb(255, 255, 255);
+}
+
+.section-3 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border: 4px solid rgb(255, 0, 0);
+    background-color: white;
+    margin: auto;
+    width: calc(100% - 300px);
+    min-width: 1100px;
+}
+
+.section-1-content {
+    font-style: italic;
+    display: flex;
+}
+
+.section-2-content {
+    background-color: rgba(218, 199, 253, 0.637);
+    height: 300px;
+    overflow:scroll;
+}
+
+.section-3-content {
+    background-color: rgba(124, 112, 175, 0.493);
+}
+
+.section-1-content-list, .section-2-content-list {
+    margin: auto;
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+.section-1-content-list__item  {
+    margin: 5px 50px;
+    text-align: left;
+    width: 200px;
+}
+
+.section-1-content-list__item__link {
+    text-decoration: none;
+    color: rgb(223, 223, 255);
+}
+
+.section-2-content-list__item {
+    margin: 5px 50px;
+    text-align: left;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(21, 19, 131, 0.7) 0%, rgba(39, 51, 222, 0.1) 47%, rgba(53, 3, 231, 0) 100%);
+} 
+
+.footer-navigation {
+    margin: auto;
+}
+
+.footer-navigation-list__item {
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+
+p {
+    margin: 20px ;
+    font-size: 1.7rem;
+}

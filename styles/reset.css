@@ -1,0 +1,13 @@
+/* reset styles */
+
+* {
+    box-sizing: border-box; /* Указываем, что размер блочной модели по границам элементов*/
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /* Задаём значение rem в 10px*/
+    background-image:url(../assets/img/background_html.png); /*Задаём фоновое изображение*/
+    background-position: 100%;
+}
